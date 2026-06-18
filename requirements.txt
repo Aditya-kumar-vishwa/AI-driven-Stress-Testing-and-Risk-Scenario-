@@ -1,0 +1,4 @@
+fastmcp
+streamlit
+pandas
+plotly

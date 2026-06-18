@@ -1,0 +1,126 @@
+{
+  "holdings": [
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "asset_class": "Equities",
+      "sector": "Technology",
+      "value": 15000000,
+      "beta_market": 1.2,
+      "beta_interest": -0.3,
+      "beta_commodity": 0.0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "asset_class": "Equities",
+      "sector": "Technology",
+      "value": 12000000,
+      "beta_market": 1.1,
+      "beta_interest": -0.2,
+      "beta_commodity": 0.0
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "asset_class": "Equities",
+      "sector": "Financials",
+      "value": 8000000,
+      "beta_market": 1.3,
+      "beta_interest": 0.8,
+      "beta_commodity": 0.0
+    },
+    {
+      "ticker": "XOM",
+      "name": "Exxon Mobil Corp.",
+      "asset_class": "Equities",
+      "sector": "Energy",
+      "value": 6000000,
+      "beta_market": 0.9,
+      "beta_interest": -0.1,
+      "beta_commodity": 1.4
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "asset_class": "Equities",
+      "sector": "Consumer Discretionary",
+      "value": 10000000,
+      "beta_market": 1.25,
+      "beta_interest": -0.4,
+      "beta_commodity": -0.2
+    },
+    {
+      "ticker": "US10Y",
+      "name": "US 10-Year Treasury Bond",
+      "asset_class": "Fixed Income",
+      "sector": "Government",
+      "value": 25000000,
+      "beta_market": -0.1,
+      "beta_interest": -5.0,
+      "beta_commodity": 0.0
+    },
+    {
+      "ticker": "US02Y",
+      "name": "US 2-Year Treasury Note",
+      "asset_class": "Fixed Income",
+      "sector": "Government",
+      "value": 18000000,
+      "beta_market": -0.05,
+      "beta_interest": -1.8,
+      "beta_commodity": 0.0
+    },
+    {
+      "ticker": "USD",
+      "name": "Cash Reserves (USD)",
+      "asset_class": "Cash",
+      "sector": "Cash",
+      "value": 6000000,
+      "beta_market": 0.0,
+      "beta_interest": 0.0,
+      "beta_commodity": 0.0
+    }
+  ],
+  "news": [
+    {
+      "id": "NEWS-001",
+      "headline": "Fed Signals Unexpected 50bps Rate Hike in Upcoming Session",
+      "source": "Bloomberg",
+      "category": "Monetary Policy",
+      "severity": "High",
+      "description": "Fearing sticky service-sector inflation, the Federal Reserve hinted at a surprise 50 basis point increase in the federal funds rate, causing bond yields to spike and equity futures to tumble."
+    },
+    {
+      "id": "NEWS-002",
+      "headline": "Straits of Hormuz Blockade Triggers Supply Chain Panic",
+      "source": "Reuters",
+      "category": "Geopolitical",
+      "severity": "High",
+      "description": "Geopolitical escalation has led to a complete naval blockade in the Straits of Hormuz. Crude oil prices jumped 14% intraday, raising global concerns about supply chain disruptions and input cost inflation."
+    },
+    {
+      "id": "NEWS-003",
+      "headline": "Major Mid-Sized Regional Bank Reports High Deposit Outflows",
+      "source": "Wall Street Journal",
+      "category": "Liquidity",
+      "severity": "High",
+      "description": "Rumors spreading on social media platforms have triggered a coordinated digital run on a prominent regional bank, with depositors withdrawing over $12B in a single morning, testing local liquidity backstops."
+    },
+    {
+      "id": "NEWS-004",
+      "headline": "Zero-Day Exploit Targets Major SWIFT Node, Halting European Clearing",
+      "source": "Financial Times",
+      "category": "Cyber",
+      "severity": "Medium",
+      "description": "A sophisticated state-sponsored cyber-attack has disrupted a critical European transaction clearing hub, temporarily delaying billions in cross-border settlements and triggering emergency operational protocols."
+    },
+    {
+      "id": "NEWS-005",
+      "headline": "Tech Stocks Rally on Breakthrough in Superconductor Manufacturing",
+      "source": "TechCrunch",
+      "category": "Technology",
+      "severity": "Low",
+      "description": "Researchers have validated a room-temperature ambient pressure superconductor breakthrough, fueling a massive risk-on surge in major hardware and technology shares."
+    }
+  ]
+}
