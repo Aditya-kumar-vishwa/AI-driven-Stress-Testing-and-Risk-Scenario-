@@ -1,13 +1,58 @@
 {
   "holdings": [
     {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation",
+      "ticker": "RELIANCE.NS",
+      "name": "Reliance Industries Limited",
+      "asset_class": "Equities",
+      "sector": "Energy",
+      "shares": 15000,
+      "currency": "INR",
+      "beta_market": 1.1,
+      "beta_interest": -0.2,
+      "beta_commodity": 1.3
+    },
+    {
+      "ticker": "TCS.NS",
+      "name": "Tata Consultancy Services Ltd",
       "asset_class": "Equities",
       "sector": "Technology",
-      "value": 15000000,
-      "beta_market": 1.2,
-      "beta_interest": -0.3,
+      "shares": 8000,
+      "currency": "INR",
+      "beta_market": 0.9,
+      "beta_interest": -0.1,
+      "beta_commodity": 0.0
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "name": "HDFC Bank Limited",
+      "asset_class": "Equities",
+      "sector": "Financials",
+      "shares": 20000,
+      "currency": "INR",
+      "beta_market": 1.25,
+      "beta_interest": -0.8,
+      "beta_commodity": 0.0
+    },
+    {
+      "ticker": "INFY.NS",
+      "name": "Infosys Limited",
+      "asset_class": "Equities",
+      "sector": "Technology",
+      "shares": 10000,
+      "currency": "INR",
+      "beta_market": 1.0,
+      "beta_interest": -0.1,
+      "beta_commodity": 0.0
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "name": "ICICI Bank Limited",
+      "asset_class": "Equities",
+      "sector": "Financials",
+      "shares": 18000,
+      "currency": "INR",
+      "beta_market": 1.15,
+      "beta_interest": -0.7,
       "beta_commodity": 0.0
     },
     {
@@ -15,112 +60,64 @@
       "name": "Apple Inc.",
       "asset_class": "Equities",
       "sector": "Technology",
-      "value": 12000000,
-      "beta_market": 1.1,
+      "shares": 800,
+      "currency": "USD",
+      "beta_market": 1.2,
+      "beta_interest": -0.3,
+      "beta_commodity": 0.0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "asset_class": "Equities",
+      "sector": "Technology",
+      "shares": 600,
+      "currency": "USD",
+      "beta_market": 1.15,
       "beta_interest": -0.2,
-      "beta_commodity": 0.0
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase & Co.",
-      "asset_class": "Equities",
-      "sector": "Financials",
-      "value": 8000000,
-      "beta_market": 1.3,
-      "beta_interest": 0.8,
-      "beta_commodity": 0.0
-    },
-    {
-      "ticker": "XOM",
-      "name": "Exxon Mobil Corp.",
-      "asset_class": "Equities",
-      "sector": "Energy",
-      "value": 6000000,
-      "beta_market": 0.9,
-      "beta_interest": -0.1,
-      "beta_commodity": 1.4
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "asset_class": "Equities",
-      "sector": "Consumer Discretionary",
-      "value": 10000000,
-      "beta_market": 1.25,
-      "beta_interest": -0.4,
-      "beta_commodity": -0.2
-    },
-    {
-      "ticker": "US10Y",
-      "name": "US 10-Year Treasury Bond",
-      "asset_class": "Fixed Income",
-      "sector": "Government",
-      "value": 25000000,
-      "beta_market": -0.1,
-      "beta_interest": -5.0,
-      "beta_commodity": 0.0
-    },
-    {
-      "ticker": "US02Y",
-      "name": "US 2-Year Treasury Note",
-      "asset_class": "Fixed Income",
-      "sector": "Government",
-      "value": 18000000,
-      "beta_market": -0.05,
-      "beta_interest": -1.8,
-      "beta_commodity": 0.0
-    },
-    {
-      "ticker": "USD",
-      "name": "Cash Reserves (USD)",
-      "asset_class": "Cash",
-      "sector": "Cash",
-      "value": 6000000,
-      "beta_market": 0.0,
-      "beta_interest": 0.0,
       "beta_commodity": 0.0
     }
   ],
   "news": [
     {
       "id": "NEWS-001",
-      "headline": "Fed Signals Unexpected 50bps Rate Hike in Upcoming Session",
-      "source": "Bloomberg",
+      "headline": "RBI Keeps Repo Rate Unchanged at 6.50% Amid Service-Sector Inflation Fears",
+      "source": "Economic Times",
       "category": "Monetary Policy",
-      "severity": "High",
-      "description": "Fearing sticky service-sector inflation, the Federal Reserve hinted at a surprise 50 basis point increase in the federal funds rate, causing bond yields to spike and equity futures to tumble."
+      "severity": "Medium",
+      "description": "The Reserve Bank of India decided to keep the benchmark repo rate unchanged at 6.50% in its latest policy meet, stressing ongoing vigilance over service-sector inflation and capital flows."
     },
     {
       "id": "NEWS-002",
-      "headline": "Straits of Hormuz Blockade Triggers Supply Chain Panic",
-      "source": "Reuters",
-      "category": "Geopolitical",
+      "headline": "Rupee Plummets to Record Low Against USD Amid Global Oil Price Surge",
+      "source": "LiveMint",
+      "category": "Liquidity",
       "severity": "High",
-      "description": "Geopolitical escalation has led to a complete naval blockade in the Straits of Hormuz. Crude oil prices jumped 14% intraday, raising global concerns about supply chain disruptions and input cost inflation."
+      "description": "Rising tensions in the Middle East have driven global Brent crude oil prices up by 9%. This commodity shock has put severe pressure on the Indian Rupee, driving it to a record low and testing Forex reserves."
     },
     {
       "id": "NEWS-003",
-      "headline": "Major Mid-Sized Regional Bank Reports High Deposit Outflows",
-      "source": "Wall Street Journal",
+      "headline": "SEBI Launches Investigation on High Leverage Derivatives Trading Liquidity",
+      "source": "Business Standard",
       "category": "Liquidity",
-      "severity": "High",
-      "description": "Rumors spreading on social media platforms have triggered a coordinated digital run on a prominent regional bank, with depositors withdrawing over $12B in a single morning, testing local liquidity backstops."
+      "severity": "Medium",
+      "description": "The Securities and Exchange Board of India (SEBI) has announced a tightening of regulations on retail options trading, causing trading volumes to slide and banking liquidity margins to compress."
     },
     {
       "id": "NEWS-004",
-      "headline": "Zero-Day Exploit Targets Major SWIFT Node, Halting European Clearing",
-      "source": "Financial Times",
+      "headline": "State-Sponsored Ransomware Hits Indian Power Grid Network Infrastructure",
+      "source": "NDTV Tech",
       "category": "Cyber",
-      "severity": "Medium",
-      "description": "A sophisticated state-sponsored cyber-attack has disrupted a critical European transaction clearing hub, temporarily delaying billions in cross-border settlements and triggering emergency operational protocols."
+      "severity": "High",
+      "description": "A sophisticated zero-day cyber-exploit targeted a state-level power distribution control node. Although clearing operations remained isolated, emergency cyber-defence measures have been initiated nationwide."
     },
     {
       "id": "NEWS-005",
-      "headline": "Tech Stocks Rally on Breakthrough in Superconductor Manufacturing",
-      "source": "TechCrunch",
+      "headline": "Nifty IT Index Surges 4% Following Blockbuster Earnings from TCS & Infosys",
+      "source": "CNBC-TV18",
       "category": "Technology",
       "severity": "Low",
-      "description": "Researchers have validated a room-temperature ambient pressure superconductor breakthrough, fueling a massive risk-on surge in major hardware and technology shares."
+      "description": "A massive spending rebound on AI integration projects has driven double-digit earnings growth for major Indian IT export leaders, sending TCS and Infosys shares to record highs."
     }
   ]
 }
