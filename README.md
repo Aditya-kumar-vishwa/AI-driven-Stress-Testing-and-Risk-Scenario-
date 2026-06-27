@@ -9,6 +9,8 @@ The Cognitive Risk Hub transforms this paradigm by combining Generative AI (for 
 The platform relies on a decoupled, modular design linking the data sources, reasoning agents, and quantitative simulators:
 
 Mermaid diagram
+
+
 3. Core Features Implemented
 🌐 Feature 1: Live Multi-Market Valuation (in INR)
 Real-time Price Feeds: Connects directly to Yahoo Finance to fetch current stock prices for Indian markets (NSE: RELIANCE.NS, TCS.NS, HDFCBANK.NS, INFY.NS, ICICIBANK.NS) and US markets (NASDAQ: AAPL, MSFT).
@@ -23,6 +25,9 @@ Multi-Agent Simulation: Runs a simulated debate in the UI log between:
 🕸️ Feature 3: Interactive Vis.js Risk Contagion Graph
 Interactive Network Canvas: Bypasses heavy backend graphical rendering (like pyvis or networkx) and embeds a high-performance, zoomable, and draggable Vis.js graph in the browser.
 Traceable Connections: Links the News Trigger to vulnerable/resilient sectors, which branch directly down to individual portfolio holdings.
+
+
+
 📊 Feature 4: Automated Monte Carlo Simulation & 99% Value at Risk (VaR)
 Instant Calculations: Running a news ingestion automatically runs backend stress tests and a 1,000-scenario Monte Carlo simulation using randomized normal distribution volatilities.
 99% VaR: Computes the 99th percentile maximum potential loss of the portfolio.
@@ -30,6 +35,8 @@ Plotly Visualizations: Displays:
 A comparison bar chart showing Baseline vs. Stressed valuations per asset.
 A distribution histogram of simulated Net Asset Values (NAVs) with vertical line annotations for the baseline, stressed, and 99% VaR thresholds.
 Manual Overrides: The sandbox retains manual sliders so users can test custom overrides.
+
+
 📝 Feature 5: Board-Ready Executive Risk Memo
 Automated Drafting: Synthesizes the stress metrics, Monte Carlo losses, and news category into a formal business memo.
 Regulatory Compliance: Compares stressed metrics against Capital Adequacy Ratio (CAR) limits (8.00% minimum) and Liquidity Coverage Ratio (LCR) thresholds (100% minimum) to flag compliance breaches.
@@ -53,6 +60,8 @@ Correlation Shocks: [SUCCESS] (Monetary Policy mapped to -6.0% market and 150 bp
 Linear Stress Test: [SUCCESS] (CAR/LCR calculations completed).
 Monte Carlo VaR: [SUCCESS] (1,000 runs resolved a 99% VaR of Rs. 2.3971 Cr).
 Gemini API Error Handling: [SUCCESS] (Gracefully handles high-demand 503 errors and redirects to correlation tables).
+
+
 6. How to Run & Deploy
 A. Local Run Commands:
 Navigate to the workspace directory and execute the Streamlit server:
